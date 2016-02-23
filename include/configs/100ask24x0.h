@@ -46,6 +46,12 @@
 
 #define CONFIG_USB_DEVICE   1
 
+/*add by chaos*/
+#define CONFIG_CMDLINE_EDITING 1
+#define CONFIG_AUTO_COMPLETE 1
+
+
+
 #ifdef CONFIG_USB_DEVICE
 #define CONFIG_USE_IRQ		1
 #endif
