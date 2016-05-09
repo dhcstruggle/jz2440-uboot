@@ -1,87 +1,80 @@
-skge.o: skge.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
-skaddr.o: skaddr.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+skge.o: skge.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
+skaddr.o: skaddr.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 skgehwt.o: skgehwt.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 skgeinit.o: skgeinit.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 skgepnmi.o: skgepnmi.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 skgesirq.o: skgesirq.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
-ski2c.o: ski2c.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
-sklm80.o: sklm80.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
+ski2c.o: ski2c.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
+sklm80.o: sklm80.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 skqueue.o: skqueue.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
-skrlmt.o: skrlmt.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
+skrlmt.o: skrlmt.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 sktimer.o: sktimer.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
-skvpd.o: skvpd.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
+skvpd.o: skvpd.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 skxmac2.o: skxmac2.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
-skcsum.o: skcsum.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
+skcsum.o: skcsum.c /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 uboot_skb.o: uboot_skb.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h
 uboot_drv.o: uboot_drv.c \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/common.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/configs/100ask24x0.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/cmd_confdefs.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/linux/bitops.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/bitops.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/linux/types.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/linux/config.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/linux/posix_types.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/linux/stddef.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/posix_types.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/types.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/linux/string.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/string.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/ptrace.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/proc/ptrace.h \
-  /home/chaos/Desktop/work/jz2440/tools/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/part.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/ide.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/flash.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/image.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/u-boot.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/global_data.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/mach-types.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/setup.h \
-  /home/chaos/Desktop/WINDOWS-SHARE/jz2440/uboot/u-boot-1.1.6/include/asm/u-boot-arm.h
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/common.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/configs/100ask24x0.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/linux/bitops.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/bitops.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/linux/types.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/linux/config.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/linux/stddef.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/types.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/linux/string.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/string.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/chaos/Desktop/work/CD1/tools/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/part.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/ide.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/flash.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/image.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/global_data.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/setup.h \
+  /home/chaos/Desktop/work/u-boot-1.1.6/include/asm/u-boot-arm.h
